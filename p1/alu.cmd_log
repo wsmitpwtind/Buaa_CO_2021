@@ -1,0 +1,11 @@
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/alu.v -lang verilog -prj p1 -o alu.spl -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 alu.spl C:/Users/zhangke/Desktop/CO/p1/alu.sym 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/alu.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/alu.syr" 
+vhdtdtfi -lang verilog -prj p1 -o C:/Users/zhangke/Desktop/CO/p1/alu.tfi -lib work C:/Users/zhangke/Desktop/CO/p1//ALU.v -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I alu.ngc alu.ngd  
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/alu.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/alu.syr" 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/alu.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I alu.ngc alu.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o alu_map.ncd alu.ngd alu.pcf 
+par -w -intstyle ise -ol high -mt off alu_map.ncd alu.ncd alu.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf 

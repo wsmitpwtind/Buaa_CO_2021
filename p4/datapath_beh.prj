@@ -1,0 +1,7 @@
+verilog work "PC.v"
+verilog work "IM.v"
+verilog work "GRF.v"
+verilog work "DM.v"
+verilog work "ALU.v"
+verilog work "datapath.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

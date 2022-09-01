@@ -1,0 +1,421 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Reading design: vote.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vote.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vote"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : vote
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p1\vote.v" into library work
+Parsing module <vote>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <vote>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vote>.
+    Related source file is "C:\Users\zhangke\Desktop\CO\p1\vote.v".
+    Found 2-bit adder for signal <n0162[1:0]> created at line 38.
+    Found 3-bit adder for signal <n0165[2:0]> created at line 38.
+    Found 4-bit adder for signal <n0168[3:0]> created at line 38.
+    Found 5-bit adder for signal <n0171[4:0]> created at line 38.
+    Found 6-bit adder for signal <n0174[5:0]> created at line 38.
+    Found 7-bit adder for signal <n0177[6:0]> created at line 38.
+    Found 8-bit adder for signal <n0180[7:0]> created at line 38.
+    Found 9-bit adder for signal <n0183[8:0]> created at line 38.
+    Found 10-bit adder for signal <n0186[9:0]> created at line 38.
+    Found 11-bit adder for signal <n0189[10:0]> created at line 38.
+    Found 12-bit adder for signal <n0192[11:0]> created at line 38.
+    Found 13-bit adder for signal <n0195[12:0]> created at line 38.
+    Found 14-bit adder for signal <n0198[13:0]> created at line 38.
+    Found 15-bit adder for signal <n0201[14:0]> created at line 38.
+    Found 16-bit adder for signal <n0204[15:0]> created at line 38.
+    Found 17-bit adder for signal <n0207[16:0]> created at line 38.
+    Found 18-bit adder for signal <n0210[17:0]> created at line 38.
+    Found 19-bit adder for signal <n0213[18:0]> created at line 38.
+    Found 20-bit adder for signal <n0216[19:0]> created at line 38.
+    Found 21-bit adder for signal <n0219[20:0]> created at line 38.
+    Found 22-bit adder for signal <n0222[21:0]> created at line 38.
+    Found 23-bit adder for signal <n0225[22:0]> created at line 38.
+    Found 24-bit adder for signal <n0228[23:0]> created at line 38.
+    Found 25-bit adder for signal <n0231[24:0]> created at line 38.
+    Found 26-bit adder for signal <n0234[25:0]> created at line 38.
+    Found 27-bit adder for signal <n0237[26:0]> created at line 38.
+    Found 28-bit adder for signal <n0240[27:0]> created at line 38.
+    Found 29-bit adder for signal <n0243[28:0]> created at line 38.
+    Found 30-bit adder for signal <n0246[29:0]> created at line 38.
+    Found 31-bit adder for signal <n0249[30:0]> created at line 38.
+    Found 2-bit adder for signal <n0255[1:0]> created at line 48.
+    Found 3-bit adder for signal <n0258[2:0]> created at line 48.
+    Found 4-bit adder for signal <n0261[3:0]> created at line 48.
+    Found 5-bit adder for signal <n0264[4:0]> created at line 48.
+    Found 6-bit adder for signal <n0267[5:0]> created at line 48.
+    Found 7-bit adder for signal <n0270[6:0]> created at line 48.
+    Found 8-bit adder for signal <n0273[7:0]> created at line 48.
+    Found 32-bit adder for signal <_n0281> created at line 52.
+    Found 32-bit adder for signal <_n0282> created at line 52.
+    Found 32-bit adder for signal <add> created at line 52.
+    Found 32-bit comparator lessequal for signal <n0041> created at line 55
+    Summary:
+	inferred  40 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <vote> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 40
+ 10-bit adder                                          : 1
+ 11-bit adder                                          : 1
+ 12-bit adder                                          : 1
+ 13-bit adder                                          : 1
+ 14-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 16-bit adder                                          : 1
+ 17-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 2-bit adder                                           : 2
+ 20-bit adder                                          : 1
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 27-bit adder                                          : 1
+ 28-bit adder                                          : 1
+ 29-bit adder                                          : 1
+ 3-bit adder                                           : 2
+ 30-bit adder                                          : 1
+ 31-bit adder                                          : 1
+ 32-bit adder                                          : 3
+ 4-bit adder                                           : 2
+ 5-bit adder                                           : 2
+ 6-bit adder                                           : 2
+ 7-bit adder                                           : 2
+ 8-bit adder                                           : 2
+ 9-bit adder                                           : 1
+# Comparators                                          : 1
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+
+Synthesizing (advanced) Unit <vote>.
+	The following adders/subtractors are grouped into adder tree <Madd_add_Madd1> :
+ 	<Madd__n0282_Madd> in block <vote>, 	<Madd_n0162[1:0]> in block <vote>, 	<Madd_n0168[3:0]_Madd> in block <vote>, 	<Madd_n0174[5:0]_Madd> in block <vote>, 	<Madd_n0180[7:0]_Madd> in block <vote>, 	<Madd_n0186[9:0]_Madd> in block <vote>, 	<Madd_n0192[11:0]_Madd> in block <vote>, 	<Madd_n0198[13:0]_Madd> in block <vote>, 	<Madd_n0204[15:0]_Madd> in block <vote>, 	<Madd_n0210[17:0]_Madd> in block <vote>, 	<Madd_n0216[19:0]_Madd> in block <vote>, 	<Madd_n0222[21:0]_Madd> in block <vote>, 	<Madd_n0228[23:0]_Madd> in block <vote>, 	<Madd_n0234[25:0]_Madd> in block <vote>, 	<Madd_n0240[27:0]_Madd> in block <vote>, 	<Madd_n0246[29:0]_Madd> in block <vote>, 	<Madd_add_Madd> in block <vote>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0273[7:0]_Madd1> :
+ 	<Madd_n0255[1:0]> in block <vote>, 	<Madd_n0261[3:0]_Madd> in block <vote>, 	<Madd_n0267[5:0]_Madd> in block <vote>, 	<Madd_n0273[7:0]_Madd> in block <vote>.
+Unit <vote> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adder Trees                                          : 2
+ 32-bit / 18-inputs adder tree                         : 1
+ 8-bit / 5-inputs adder tree                           : 1
+# Comparators                                          : 1
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <vote> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vote, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : vote.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 213
+#      GND                         : 1
+#      LUT1                        : 5
+#      LUT2                        : 3
+#      LUT3                        : 41
+#      LUT4                        : 36
+#      LUT5                        : 16
+#      LUT6                        : 15
+#      MUXCY                       : 51
+#      VCC                         : 1
+#      XORCY                       : 44
+# IO Buffers                       : 42
+#      IBUF                        : 41
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  116  out of  63400     0%  
+    Number used as Logic:               116  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    116
+   Number with an unused Flip Flop:     116  out of    116   100%  
+   Number with an unused LUT:             0  out of    116     0%  
+   Number of fully used LUT-FF pairs:     0  out of    116     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          42
+ Number of bonded IOBs:                  42  out of    210    20%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.467ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 345470 / 1
+-------------------------------------------------------------------------
+Delay:               8.467ns (Levels of Logic = 38)
+  Source:            vip<0> (PAD)
+  Destination:       res (PAD)
+
+  Data Path: vip<0> to res
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.001   0.755  vip_0_IBUF (vip_0_IBUF)
+     LUT5:I0->O            2   0.097   0.758  ADDERTREE_INTERNAL_Madd1_xor<1>11 (ADDERTREE_INTERNAL_Madd_11)
+     LUT6:I0->O            2   0.097   0.444  ADDERTREE_INTERNAL_Madd3_cy<0>21 (ADDERTREE_INTERNAL_Madd3_cy<0>1)
+     LUT3:I1->O            1   0.097   0.000  ADDERTREE_INTERNAL_Madd4_lut<4>11 (ADDERTREE_INTERNAL_Madd4_lut<4>1)
+     MUXCY:S->O            1   0.353   0.000  ADDERTREE_INTERNAL_Madd7_cy<4> (ADDERTREE_INTERNAL_Madd7_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd7_cy<5> (ADDERTREE_INTERNAL_Madd7_cy<5>)
+     MUXCY:CI->O           0   0.023   0.000  ADDERTREE_INTERNAL_Madd7_cy<6> (ADDERTREE_INTERNAL_Madd7_cy<6>)
+     XORCY:CI->O           1   0.370   0.355  ADDERTREE_INTERNAL_Madd7_xor<7> (ADDERTREE_INTERNAL_Madd_77)
+     LUT1:I0->O            1   0.097   0.000  ADDERTREE_INTERNAL_Madd11_cy<7>_rt (ADDERTREE_INTERNAL_Madd11_cy<7>_rt)
+     MUXCY:S->O            0   0.353   0.000  ADDERTREE_INTERNAL_Madd11_cy<7> (ADDERTREE_INTERNAL_Madd11_cy<7>)
+     XORCY:CI->O           2   0.370   0.360  ADDERTREE_INTERNAL_Madd11_xor<8> (ADDERTREE_INTERNAL_Madd_87)
+     LUT3:I2->O            1   0.097   0.355  ADDERTREE_INTERNAL_Madd208 (ADDERTREE_INTERNAL_Madd208)
+     LUT4:I3->O            1   0.097   0.000  ADDERTREE_INTERNAL_Madd20_lut<0>9 (ADDERTREE_INTERNAL_Madd20_lut<0>9)
+     MUXCY:S->O            1   0.353   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_8 (ADDERTREE_INTERNAL_Madd20_cy<0>9)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_9 (ADDERTREE_INTERNAL_Madd20_cy<0>10)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_10 (ADDERTREE_INTERNAL_Madd20_cy<0>11)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_11 (ADDERTREE_INTERNAL_Madd20_cy<0>12)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_12 (ADDERTREE_INTERNAL_Madd20_cy<0>13)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_13 (ADDERTREE_INTERNAL_Madd20_cy<0>14)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_14 (ADDERTREE_INTERNAL_Madd20_cy<0>15)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_15 (ADDERTREE_INTERNAL_Madd20_cy<0>16)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_16 (ADDERTREE_INTERNAL_Madd20_cy<0>17)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_17 (ADDERTREE_INTERNAL_Madd20_cy<0>18)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_18 (ADDERTREE_INTERNAL_Madd20_cy<0>19)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_19 (ADDERTREE_INTERNAL_Madd20_cy<0>20)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_20 (ADDERTREE_INTERNAL_Madd20_cy<0>21)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_21 (ADDERTREE_INTERNAL_Madd20_cy<0>22)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_22 (ADDERTREE_INTERNAL_Madd20_cy<0>23)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_23 (ADDERTREE_INTERNAL_Madd20_cy<0>24)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_24 (ADDERTREE_INTERNAL_Madd20_cy<0>25)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_25 (ADDERTREE_INTERNAL_Madd20_cy<0>26)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_26 (ADDERTREE_INTERNAL_Madd20_cy<0>27)
+     MUXCY:CI->O           1   0.023   0.000  ADDERTREE_INTERNAL_Madd20_cy<0>_27 (ADDERTREE_INTERNAL_Madd20_cy<0>28)
+     XORCY:CI->O           2   0.370   0.748  ADDERTREE_INTERNAL_Madd20_xor<0>_28 (ADDERTREE_INTERNAL_Madd_2916)
+     LUT5:I0->O            0   0.097   0.000  Mcompar_res_lutdi4 (Mcompar_res_lutdi4)
+     MUXCY:DI->O           1   0.567   0.355  Mcompar_res_cy<4> (Mcompar_res_cy<4>)
+     LUT3:I2->O            1   0.097   0.339  Mcompar_res_cy<5> (res_OBUF)
+     OBUF:I->O                 0.000          res_OBUF (res)
+    ----------------------------------------
+    Total                      8.467ns (3.996ns logic, 4.471ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 39.00 secs
+Total CPU time to Xst completion: 39.13 secs
+ 
+--> 
+
+Total memory usage is 5082888 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/zhangke/Desktop/CO/p1/tvote_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tvote" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tvote/res" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">res</obj_property>
+      <obj_property name="ObjectShortName">res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/np" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">np[31:0]</obj_property>
+      <obj_property name="ObjectShortName">np[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/vip" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vip[7:0]</obj_property>
+      <obj_property name="ObjectShortName">vip[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/vvip" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vvip</obj_property>
+      <obj_property name="ObjectShortName">vvip</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/uut/add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/uut/add_np" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add_np[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_np[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/uut/add_vip" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add_vip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_vip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tvote/uut/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+async_reset instance_name (
+    .clk(clk), 
+    .rst_n(rst_n), 
+    .data_in(data_in), 
+    .data_out(data_out)
+    );
+
+

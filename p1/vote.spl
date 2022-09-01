@@ -1,0 +1,10 @@
+[Inputs]
+vvip
+=np[31:0]=
+=vip[7:0]=
+[Outputs]
+res
+[BiDir]
+[ATTRIBUTES]
+VeriModel vote
+

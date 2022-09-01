@@ -1,0 +1,57 @@
+ISim log file
+Running: C:\Users\zhangke\Desktop\CO\p5\tmips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/zhangke/Desktop/CO/p5/tmips_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 3000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 109@00003000: $ 9 <= 00000007
+                 111@00003004: $ 1 <= 0000000a
+                 113@00003008: $ 9 <= fffffffd
+                 113@0000300c: *00000004 <= fffffffd
+                 121@00003014: $ 2 <= 0000000a
+                 123@00003018: $ 7 <= 0000000a
+                 125@0000301c: $ 7 <= 00000014
+                 127@00003020: $ 7 <= 0000001e
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 3000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 109@00003000: $ 1 <= 00000004
+                 111@00003004: $ 2 <= 00000001
+                 111@00003008: *00000008 <= 00000001
+                 115@0000300c: $ 2 <= 00000001
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 3000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 109@00003000: $ 1 <= 00000004
+                 111@00003004: $ 2 <= 00000001
+                 111@00003008: *00000008 <= 00000001
+                 115@0000300c: $ 2 <= 00000001
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 3000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 109@00003000: $ 1 <= 00000004
+                 111@00003004: $ 2 <= 00000001
+                 113@00003008: $ 2 <= fffffffd
+                 113@0000300c: *00000008 <= fffffffd
+                 117@00003010: $ 1 <= fffffffd
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 3000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 109@00003000: $ 1 <= 00000004
+                 111@00003004: $ 2 <= 00000001
+                 113@00003008: $ 2 <= fffffffd
+                 113@0000300c: *00000008 <= fffffffd
+                 117@00003010: $ 1 <= fffffffd
+                 119@00003014: $ 1 <= 00000004

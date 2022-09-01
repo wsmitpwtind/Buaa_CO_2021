@@ -1,0 +1,28 @@
+Command line:
+   tmips_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  6324
+
+Wed Dec 22 17:02:24 2021
+
+
+ Elaboration Time: 0.546875 sec
+
+ Current Memory Usage: 5669.82 Meg
+
+ Total Signals          : 901
+ Total Nets             : 3186
+ Total Signal Drivers   : 698
+ Total Blocks           : 12
+ Total Primitive Blocks : 9
+ Total Processes        : 722
+ Total Traceable Variables  : 121
+ Total Scalar Nets and Variables : 268448
+
+ Total Simulation Time: 0.65625 sec
+
+ Current Memory Usage: 4726.05 Meg
+
+Wed Dec 22 21:23:00 2021
+

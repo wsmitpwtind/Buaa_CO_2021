@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/zhangke/Desktop/CO/p5/tmips_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tmips" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tmips/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/I_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">I_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/D_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/M_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/W_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/D_Storedata_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_Storedata_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_Storedata_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

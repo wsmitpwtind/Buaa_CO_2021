@@ -1,0 +1,15 @@
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/vote.v -lang verilog -prj p1 -o vote.spl -module vote -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 vote.spl C:/Users/zhangke/Desktop/CO/p1/vote.sym 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/vote.v -lang verilog -prj p1 -o vote.spl -module vote -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 vote.spl C:/Users/zhangke/Desktop/CO/p1/vote.sym 
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/vote.v -lang verilog -prj p1 -o vote.spl -module vote -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 vote.spl C:/Users/zhangke/Desktop/CO/p1/vote.sym 
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/vote.v -lang verilog -prj p1 -o vote.spl -module vote -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 vote.spl C:/Users/zhangke/Desktop/CO/p1/vote.sym 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/vote.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/vote.syr" 

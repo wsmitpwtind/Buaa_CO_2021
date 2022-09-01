@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\tmips.v" Line 37: Using initial value of <arg fmt="%s" index="1">reset</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\IM.v" Line 34: Signal &lt;<arg fmt="%s" index="1">ImMem</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 63: Assignment to <arg fmt="%s" index="1">ReadGF1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 64: Assignment to <arg fmt="%s" index="1">ReadGF2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 199: Assignment to <arg fmt="%s" index="1">temp1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 228: Assignment to <arg fmt="%s" index="1">I_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 229: Assignment to <arg fmt="%s" index="1">I_rt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 230: Assignment to <arg fmt="%s" index="1">I_rd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 236: Assignment to <arg fmt="%s" index="1">D_rd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 246: Assignment to <arg fmt="%s" index="1">M_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 252: Assignment to <arg fmt="%s" index="1">W_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\control.v" Line 371: Assignment to <arg fmt="%s" index="1">I_Instrlist</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 223: Assignment to <arg fmt="%s" index="1">askdata1_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 224: Assignment to <arg fmt="%s" index="1">askdata2_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 225: Assignment to <arg fmt="%s" index="1">askdata1_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 226: Assignment to <arg fmt="%s" index="1">askdata2_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 93: Assignment to <arg fmt="%s" index="1">D_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 94: Assignment to <arg fmt="%s" index="1">D_rt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 95: Assignment to <arg fmt="%s" index="1">D_rd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 99: Assignment to <arg fmt="%s" index="1">E_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 100: Assignment to <arg fmt="%s" index="1">E_rt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 101: Assignment to <arg fmt="%s" index="1">E_rd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 105: Assignment to <arg fmt="%s" index="1">M_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 106: Assignment to <arg fmt="%s" index="1">M_rt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 107: Assignment to <arg fmt="%s" index="1">M_rd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 111: Assignment to <arg fmt="%s" index="1">W_rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 112: Assignment to <arg fmt="%s" index="1">W_rt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 113: Assignment to <arg fmt="%s" index="1">W_rd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 135: Assignment to <arg fmt="%s" index="1">D_lui</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 140: Assignment to <arg fmt="%s" index="1">D_jal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 142: Assignment to <arg fmt="%s" index="1">D_j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 143: Assignment to <arg fmt="%s" index="1">D_nop</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 147: Assignment to <arg fmt="%s" index="1">E_lui</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 152: Assignment to <arg fmt="%s" index="1">E_jal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 154: Assignment to <arg fmt="%s" index="1">E_j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 155: Assignment to <arg fmt="%s" index="1">E_nop</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 159: Assignment to <arg fmt="%s" index="1">M_lui</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 164: Assignment to <arg fmt="%s" index="1">M_jal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 166: Assignment to <arg fmt="%s" index="1">M_j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 167: Assignment to <arg fmt="%s" index="1">M_nop</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 169: Assignment to <arg fmt="%s" index="1">W_addu</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 170: Assignment to <arg fmt="%s" index="1">W_subu</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 171: Assignment to <arg fmt="%s" index="1">W_lui</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 172: Assignment to <arg fmt="%s" index="1">W_ori</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 173: Assignment to <arg fmt="%s" index="1">W_lw</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 174: Assignment to <arg fmt="%s" index="1">W_sw</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 175: Assignment to <arg fmt="%s" index="1">W_beq</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 176: Assignment to <arg fmt="%s" index="1">W_jal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 177: Assignment to <arg fmt="%s" index="1">W_jr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 178: Assignment to <arg fmt="%s" index="1">W_j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 179: Assignment to <arg fmt="%s" index="1">W_nop</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 185: Assignment to <arg fmt="%s" index="1">W_bal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 191: Assignment to <arg fmt="%s" index="1">W_cal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 196: Assignment to <arg fmt="%s" index="1">W_cai</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 201: Assignment to <arg fmt="%s" index="1">W_lr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 207: Assignment to <arg fmt="%s" index="1">W_lr1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 213: Assignment to <arg fmt="%s" index="1">W_lr2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 218: Assignment to <arg fmt="%s" index="1">W_addi</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 223: Assignment to <arg fmt="%s" index="1">W_jalr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 234: Assignment to <arg fmt="%s" index="1">M_care1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 235: Assignment to <arg fmt="%s" index="1">M_care2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\haltpass.v" Line 249: Assignment to <arg fmt="%s" index="1">needgrf_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\zhangke\Desktop\CO\p5\mips.v" Line 28: Net &lt;<arg fmt="%s" index="1">readGFadd1[4]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\zhangke\Desktop\CO\p5\mips.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">dp</arg>&gt; of block &lt;<arg fmt="%s" index="4">datapath</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\zhangke\Desktop\CO\p5\mips.v</arg>&quot; line <arg fmt="%d" index="2">108</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrl</arg>&gt; of block &lt;<arg fmt="%s" index="4">control</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\zhangke\Desktop\CO\p5\mips.v</arg>&quot; line <arg fmt="%d" index="2">239</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gap</arg>&gt; of block &lt;<arg fmt="%s" index="4">gapGF</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\zhangke\Desktop\CO\p5\mips.v</arg>&quot; line <arg fmt="%d" index="2">299</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">halt</arg>&gt; of block &lt;<arg fmt="%s" index="4">haltpass</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\zhangke\Desktop\CO\p5\mips.v</arg>&quot; line <arg fmt="%d" index="2">362</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">haltgf</arg>&gt; of block &lt;<arg fmt="%s" index="4">haltGF</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\zhangke\Desktop\CO\p5\tmips.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">uut</arg>&gt; of block &lt;<arg fmt="%s" index="4">mips</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">tmips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ImMem</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">IM</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PC</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PC</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+</msg>
+
+</messages>
+

@@ -1,0 +1,10 @@
+[Inputs]
+clk
+rst_n
+data_in
+[Outputs]
+data_out
+[BiDir]
+[ATTRIBUTES]
+VeriModel async_reset
+

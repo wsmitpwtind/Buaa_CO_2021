@@ -1,0 +1,37 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/zhangke/Desktop/CO/p6/tmips_isim_beh.exe" -prj "C:/Users/zhangke/Desktop/CO/p6/tmips_beh.prj" "work.tmips" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/MDU.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/IFU.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/GRF.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/alu.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/haltpass.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/haltGF.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/gapGF.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/datapath.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/control.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/CPU/mips.v" into library work
+Analyzing Verilog file "C:/Users/zhangke/Desktop/CO/p6/tmips.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module GRF
+Compiling module MDU
+Compiling module ALU
+Compiling module datapath
+Compiling module control
+Compiling module gapGF
+Compiling module haltpass
+Compiling module haltGF
+Compiling module mips
+Compiling module tmips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/zhangke/Desktop/CO/p6/tmips_isim_beh.exe
+Fuse Memory Usage: 49828 KB
+Fuse CPU Usage: 2671 ms

@@ -1,0 +1,9 @@
+ori $1,10
+ori $2,20
+mthi $1
+mtlo $2
+ori $3,3
+ori $4,4
+mult $3,$4
+mfhi $5
+mflo $6

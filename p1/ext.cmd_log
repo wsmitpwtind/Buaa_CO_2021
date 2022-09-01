@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/ext.v -lang verilog -prj p1 -o ext.spl -module ext -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 ext.spl C:/Users/zhangke/Desktop/CO/p1/ext.sym 
+vhdtdtfi -lang verilog -prj p1 -o C:/Users/zhangke/Desktop/CO/p1/ext.tfi -lib work C:/Users/zhangke/Desktop/CO/p1//ext.v -module ext -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/zhangke/Desktop/CO/p1/ext.v -lang verilog -prj p1 -o ext.spl -module ext -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 ext.spl C:/Users/zhangke/Desktop/CO/p1/ext.sym 
+xst -intstyle ise -ifn "C:/Users/zhangke/Desktop/CO/p1/ext.xst" -ofn "C:/Users/zhangke/Desktop/CO/p1/ext.syr" 

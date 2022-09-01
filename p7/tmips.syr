@@ -1,0 +1,417 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: tmips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tmips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tmips"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : tmips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\MDU.v" into library work
+Parsing module <MDU>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\IFU.v" into library work
+Parsing module <IFU>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\alu.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" into library work
+Parsing module <haltpass>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\haltGF.v" into library work
+Parsing module <haltGF>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\gapGF.v" into library work
+Parsing module <gapGF>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\datapath.v" into library work
+Parsing module <datapath>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" into library work
+WARNING:HDLCompiler:572 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 85: Macro <DIV> is redefined.
+WARNING:HDLCompiler:572 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 86: Macro <DIVU> is redefined.
+WARNING:HDLCompiler:572 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 91: Macro <Mr> is redefined.
+Parsing module <control>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\Bridge.v" into library work
+Parsing module <Bridge>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" into library work
+Parsing module <mips>.
+Analyzing Verilog file "C:\Users\zhangke\Desktop\CO\p7\tmips.v" into library work
+Parsing module <tmips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 24: Port interrupt is not connected to this instance
+
+Elaborating module <tmips>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 55: Signal <inst> in initial block is partially initialized.
+WARNING:HDLCompiler:872 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 59: Using initial value of reset since it is never assigned
+
+Elaborating module <mips>.
+
+Elaborating module <Bridge>.
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 90: Assignment to TM0_Addr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 92: Assignment to TM0_WD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 93: Assignment to TM0_we ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 95: Assignment to TM1_Addr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 97: Assignment to TM1_WD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 98: Assignment to TM1_we ignored, since the identifier is never used
+
+Elaborating module <datapath>.
+
+Elaborating module <IFU>.
+
+Elaborating module <GRF>.
+
+Elaborating module <MDU>.
+WARNING:HDLCompiler:413 - "C:\Users\zhangke\Desktop\CO\p7\CPU\MDU.v" Line 68: Result of 32-bit expression is truncated to fit in 4-bit target.
+ERROR:HDLCompiler:1401 - "C:\Users\zhangke\Desktop\CO\p7\CPU\MDU.v" Line 31: Signal HI[31] in unit MDU is connected to following multiple drivers:
+Driver 0: output signal HI[31] of instance Flip-flop (HI).
+Driver 1: output signal HI[31] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[30] of instance Flip-flop (HI).
+Driver 1: output signal HI[30] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[29] of instance Flip-flop (HI).
+Driver 1: output signal HI[29] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[28] of instance Flip-flop (HI).
+Driver 1: output signal HI[28] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[27] of instance Flip-flop (HI).
+Driver 1: output signal HI[27] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[26] of instance Flip-flop (HI).
+Driver 1: output signal HI[26] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[25] of instance Flip-flop (HI).
+Driver 1: output signal HI[25] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[24] of instance Flip-flop (HI).
+Driver 1: output signal HI[24] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[23] of instance Flip-flop (HI).
+Driver 1: output signal HI[23] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[22] of instance Flip-flop (HI).
+Driver 1: output signal HI[22] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[21] of instance Flip-flop (HI).
+Driver 1: output signal HI[21] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[20] of instance Flip-flop (HI).
+Driver 1: output signal HI[20] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[19] of instance Flip-flop (HI).
+Driver 1: output signal HI[19] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[18] of instance Flip-flop (HI).
+Driver 1: output signal HI[18] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[17] of instance Flip-flop (HI).
+Driver 1: output signal HI[17] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[16] of instance Flip-flop (HI).
+Driver 1: output signal HI[16] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[15] of instance Flip-flop (HI).
+Driver 1: output signal HI[15] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[14] of instance Flip-flop (HI).
+Driver 1: output signal HI[14] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[13] of instance Flip-flop (HI).
+Driver 1: output signal HI[13] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[12] of instance Flip-flop (HI).
+Driver 1: output signal HI[12] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[11] of instance Flip-flop (HI).
+Driver 1: output signal HI[11] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[10] of instance Flip-flop (HI).
+Driver 1: output signal HI[10] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[9] of instance Flip-flop (HI).
+Driver 1: output signal HI[9] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[8] of instance Flip-flop (HI).
+Driver 1: output signal HI[8] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[7] of instance Flip-flop (HI).
+Driver 1: output signal HI[7] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[6] of instance Flip-flop (HI).
+Driver 1: output signal HI[6] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[5] of instance Flip-flop (HI).
+Driver 1: output signal HI[5] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[4] of instance Flip-flop (HI).
+Driver 1: output signal HI[4] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[3] of instance Flip-flop (HI).
+Driver 1: output signal HI[3] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[2] of instance Flip-flop (HI).
+Driver 1: output signal HI[2] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[1] of instance Flip-flop (HI).
+Driver 1: output signal HI[1] of instance Flip-flop (_i000039).
+Driver 0: output signal HI[0] of instance Flip-flop (HI).
+Driver 1: output signal HI[0] of instance Flip-flop (_i000039).
+Driver 0: output signal LO[31] of instance Flip-flop (LO).
+Driver 1: output signal LO[31] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[30] of instance Flip-flop (LO).
+Driver 1: output signal LO[30] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[29] of instance Flip-flop (LO).
+Driver 1: output signal LO[29] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[28] of instance Flip-flop (LO).
+Driver 1: output signal LO[28] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[27] of instance Flip-flop (LO).
+Driver 1: output signal LO[27] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[26] of instance Flip-flop (LO).
+Driver 1: output signal LO[26] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[25] of instance Flip-flop (LO).
+Driver 1: output signal LO[25] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[24] of instance Flip-flop (LO).
+Driver 1: output signal LO[24] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[23] of instance Flip-flop (LO).
+Driver 1: output signal LO[23] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[22] of instance Flip-flop (LO).
+Driver 1: output signal LO[22] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[21] of instance Flip-flop (LO).
+Driver 1: output signal LO[21] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[20] of instance Flip-flop (LO).
+Driver 1: output signal LO[20] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[19] of instance Flip-flop (LO).
+Driver 1: output signal LO[19] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[18] of instance Flip-flop (LO).
+Driver 1: output signal LO[18] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[17] of instance Flip-flop (LO).
+Driver 1: output signal LO[17] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[16] of instance Flip-flop (LO).
+Driver 1: output signal LO[16] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[15] of instance Flip-flop (LO).
+Driver 1: output signal LO[15] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[14] of instance Flip-flop (LO).
+Driver 1: output signal LO[14] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[13] of instance Flip-flop (LO).
+Driver 1: output signal LO[13] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[12] of instance Flip-flop (LO).
+Driver 1: output signal LO[12] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[11] of instance Flip-flop (LO).
+Driver 1: output signal LO[11] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[10] of instance Flip-flop (LO).
+Driver 1: output signal LO[10] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[9] of instance Flip-flop (LO).
+Driver 1: output signal LO[9] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[8] of instance Flip-flop (LO).
+Driver 1: output signal LO[8] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[7] of instance Flip-flop (LO).
+Driver 1: output signal LO[7] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[6] of instance Flip-flop (LO).
+Driver 1: output signal LO[6] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[5] of instance Flip-flop (LO).
+Driver 1: output signal LO[5] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[4] of instance Flip-flop (LO).
+Driver 1: output signal LO[4] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[3] of instance Flip-flop (LO).
+Driver 1: output signal LO[3] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[2] of instance Flip-flop (LO).
+Driver 1: output signal LO[2] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[1] of instance Flip-flop (LO).
+Driver 1: output signal LO[1] of instance Flip-flop (_i000041).
+Driver 0: output signal LO[0] of instance Flip-flop (LO).
+Driver 1: output signal LO[0] of instance Flip-flop (_i000041).
+Module MDU remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Users\zhangke\Desktop\CO\p7\CPU\MDU.v" Line 10: Empty module <MDU> remains a black box.
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 111: Assignment to ReadGF1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 112: Assignment to ReadGF2 ignored, since the identifier is never used
+
+Elaborating module <control>.
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 259: Assignment to temp1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 316: Assignment to I_rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 318: Assignment to I_rd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 324: Assignment to D_rd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 340: Assignment to W_rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\control.v" Line 683: Assignment to I_Instrlist ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 304: Assignment to askdata1_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 305: Assignment to askdata2_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 306: Assignment to askdata1_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 307: Assignment to askdata2_M ignored, since the identifier is never used
+
+Elaborating module <gapGF>.
+
+Elaborating module <haltpass>.
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 134: Assignment to D_rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 136: Assignment to D_rd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 140: Assignment to E_rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 142: Assignment to E_rd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 146: Assignment to M_rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 148: Assignment to M_rd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 152: Assignment to W_rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 154: Assignment to W_rd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 210: Assignment to W_addu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 211: Assignment to W_subu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 212: Assignment to W_add ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 213: Assignment to W_sub ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 214: Assignment to W_and ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 215: Assignment to W_or ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 216: Assignment to W_xor ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 217: Assignment to W_nor ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 218: Assignment to W_slt ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 219: Assignment to W_sltu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 220: Assignment to W_sll ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 221: Assignment to W_srl ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 222: Assignment to W_sra ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 223: Assignment to W_sllv ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 224: Assignment to W_srlv ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 225: Assignment to W_srav ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 228: Assignment to D_lui ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 237: Assignment to E_lui ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 246: Assignment to M_lui ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 255: Assignment to W_lui ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 256: Assignment to W_Addi ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 257: Assignment to W_Addiu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 258: Assignment to W_Andi ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 259: Assignment to W_ori ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 260: Assignment to W_xori ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 261: Assignment to W_slti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 262: Assignment to W_sltiu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 270: Assignment to D_jal ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 272: Assignment to D_j ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 281: Assignment to E_jal ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 283: Assignment to E_j ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 292: Assignment to M_jal ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 294: Assignment to M_j ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 297: Assignment to W_beq ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 298: Assignment to W_bne ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 299: Assignment to W_blez ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 300: Assignment to W_bgtz ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 301: Assignment to W_bltz ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 302: Assignment to W_bgez ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 303: Assignment to W_jal ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 304: Assignment to W_jr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 305: Assignment to W_j ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 306: Assignment to W_jalr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 326: Assignment to W_lw ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 327: Assignment to W_lb ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 328: Assignment to W_lbu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 329: Assignment to W_lh ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 330: Assignment to W_lhu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 345: Assignment to W_sw ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 346: Assignment to W_sb ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 347: Assignment to W_sh ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 362: Assignment to E_MFHI ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 363: Assignment to E_MFLO ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 370: Assignment to M_MFHI ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 371: Assignment to M_MFLO ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 374: Assignment to W_MULT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 375: Assignment to W_MULTU ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 376: Assignment to W_DIV ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 377: Assignment to W_DIVU ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 378: Assignment to W_MFHI ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 379: Assignment to W_MFLO ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 380: Assignment to W_MTHI ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 381: Assignment to W_MTLO ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 383: Assignment to D_nop ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 384: Assignment to E_nop ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 385: Assignment to M_nop ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 386: Assignment to W_nop ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 393: Assignment to W_cal ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 398: Assignment to W_cai ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 403: Assignment to W_bal ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 408: Assignment to W_lr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 413: Assignment to W_lr1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 418: Assignment to W_sr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 423: Assignment to W_Mr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 443: Assignment to M_care1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 444: Assignment to M_care2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\CPU\haltpass.v" Line 469: Assignment to needgrf_M ignored, since the identifier is never used
+
+Elaborating module <haltGF>.
+WARNING:HDLCompiler:634 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 45: Net <readGFadd1[4]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\zhangke\Desktop\CO\p7\CPU\mips.v" Line 76: Net <TM0_RD[31]> does not have a driver.
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 36: Assignment to m_inst_addr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 40: Assignment to w_grf_wdata ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 42: Assignment to w_inst_addr ignored, since the identifier is never used
+"C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 78. $display  32'b................................ 32'b................................ 32'b................................
+"C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 85. $display  32'b................................ 5'b..... 32'b................................
+WARNING:HDLCompiler:552 - "C:\Users\zhangke\Desktop\CO\p7\tmips.v" Line 24: Input port interrupt is not connected on this instance
+--> 
+
+Total memory usage is 6274616 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :  117 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

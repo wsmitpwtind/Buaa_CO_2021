@@ -1,0 +1,145 @@
+.text
+ori $1,$0,4
+ori $9,$0,53
+ori $4,$0,88
+ori $15,$0,84
+ori $24,$0,71
+ori $5,$0,116
+ori $1,$0,114
+ori $11,$0,59
+ori $10,$9,7785
+lw $22,-116($5)
+nop
+sw $6,292($4)
+beq $12,$24,branch1
+lui $3,40822
+ori $20,$0,27807
+sw $0,21($11)
+subu $18,$23,$13
+lui $25,56603
+nop
+sw $0,87($9)
+subu $27,$17,$20
+ori $2,$12,47049
+beq $22,$4,branch2
+nop
+addu $3,$19,$13
+lw $27,69($24)
+nop
+lw $22,26($1)
+lui $8,62095
+addu $18,$3,$13
+subu $21,$19,$3
+beq $17,$16,branch3
+nop
+lw $25,81($11)
+ori $0,$19,17932
+subu $13,$11,$12
+lui $3,45209
+nop
+lw $17,26($1)
+lui $20,54025
+beq $5,$20,branch4
+subu $27,$9,$25
+beq $0,$10,branch5
+ori $19,$25,30594
+lui $7,19551
+lui $0,22635
+nop
+beq $25,$12,branch6
+branch4:
+subu $3,$17,$0
+lui $14,38414
+subu $12,$7,$26
+sw $27,85($11)
+lui $23,34393
+ori $2,$6,64019
+lui $22,1718
+beq $25,$15,branch7
+nop
+subu $20,$3,$14
+lw $10,56($4)
+ori $10,$9,22904
+branch5:
+subu $10,$11,$17
+sw $14,5($11)
+sw $26,100($15)
+ori $12,$16,44965
+beq $12,$10,branch8
+ori $12,$25,31864
+lui $13,6404
+ori $7,$22,39915
+lui $12,26258
+lui $21,17661
+subu $10,$6,$6
+beq $20,$27,branch9
+ori $22,$0,59848
+lui $25,59320
+addu $27,$27,$0
+ori $23,$2,64824
+beq $24,$17,branch10
+lw $19,100($15)
+sw $7,152($15)
+sw $8,125($24)
+ori $14,$0,8354
+nop
+lw $13,80($5)
+sw $19,329($24)
+addu $2,$10,$7
+addu $27,$25,$12
+lui $14,9808
+beq $0,$13,branch11
+addu $0,$0,$16
+subu $3,$2,$21
+lw $25,286($1)
+nop
+nop
+sw $7,-42($1)
+beq $4,$2,branch12
+addu $13,$25,$10
+branch6:
+beq $3,$10,branch13
+lw $19,-44($5)
+sw $24,363($9)
+lw $21,357($11)
+ori $0,$23,22684
+nop
+nop
+ori $22,$25,6543
+branch1:
+sw $2,64($15)
+addu $3,$2,$17
+lw $13,32($5)
+sw $24,421($11)
+branch13:
+subu $14,$7,$11
+beq $26,$0,branch14
+branch11:
+nop
+beq $20,$5,branch15
+ori $13,$26,27827
+sw $25,122($1)
+branch8:
+subu $8,$2,$12
+lui $3,36543
+nop
+branch3:
+branch14:
+lw $0,165($24)
+branch2:
+branch7:
+lw $16,165($24)
+branch10:
+subu $7,$8,$7
+branch12:
+branch15:
+addu $23,$12,$19
+lw $26,183($9)
+branch9:
+nop
+beq $14,$17,branch16
+sw $4,252($15)
+nop
+ori $18,$21,708
+ori $21,$13,7670
+branch16:

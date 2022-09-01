@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/zhangke/Desktop/CO/p5/tmips_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tmips" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/tmips/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/I_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">I_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/D_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/M_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/M_add_write" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_add_write[4:0]</obj_property>
+      <obj_property name="ObjectShortName">M_add_write[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/M_ALUresult_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_ALUresult_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_ALUresult_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/W_Instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W_Instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_Instr_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/I_PC_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">I_PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_PC_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/D_PC_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_PC_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_PC_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_PC_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/M_PC_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_PC_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/W_PC_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W_PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_PC_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/CareGF1_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CareGF1_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CareGF1_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/CareGF2_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CareGF2_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CareGF2_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/CareGFadd1_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CareGFadd1_E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">CareGFadd1_E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/CareGF1_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CareGF1_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CareGF1_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/CareGFadd2_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CareGFadd2_E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">CareGFadd2_E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/CareGF2_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CareGF2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CareGF2_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_addu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_addu</obj_property>
+      <obj_property name="ObjectShortName">E_addu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_subu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_subu</obj_property>
+      <obj_property name="ObjectShortName">E_subu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_lui" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_lui</obj_property>
+      <obj_property name="ObjectShortName">E_lui</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_ori" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_ori</obj_property>
+      <obj_property name="ObjectShortName">E_ori</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_lw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_lw</obj_property>
+      <obj_property name="ObjectShortName">E_lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_sw</obj_property>
+      <obj_property name="ObjectShortName">E_sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_beq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_beq</obj_property>
+      <obj_property name="ObjectShortName">E_beq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_jal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_jal</obj_property>
+      <obj_property name="ObjectShortName">E_jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_jr</obj_property>
+      <obj_property name="ObjectShortName">E_jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_nop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_nop</obj_property>
+      <obj_property name="ObjectShortName">E_nop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_j" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_j</obj_property>
+      <obj_property name="ObjectShortName">E_j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_Instrlist" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_Instrlist[4:0]</obj_property>
+      <obj_property name="ObjectShortName">E_Instrlist[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">E_rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">E_rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tmips/uut/ctrl/E_rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">E_rd[4:0]</obj_property>
+   </wvobject>
+</wave_config>

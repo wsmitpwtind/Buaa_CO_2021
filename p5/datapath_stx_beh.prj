@@ -1,0 +1,7 @@
+verilog isim_temp "IM.v"
+verilog isim_temp "IFU.v"
+verilog isim_temp "GRF.v"
+verilog isim_temp "DM.v"
+verilog isim_temp "alu.v"
+verilog isim_temp "datapath.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
